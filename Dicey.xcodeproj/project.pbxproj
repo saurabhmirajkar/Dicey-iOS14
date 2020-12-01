@@ -60,8 +60,8 @@
 				0979AB072558340B00E33C13 /* SceneDelegate.swift */,
 				0979AB092558340B00E33C13 /* ViewController.swift */,
 				0979AB0B2558340B00E33C13 /* Main.storyboard */,
-				0979AB0E2558340D00E33C13 /* Assets.xcassets */,
 				0979AB102558340D00E33C13 /* LaunchScreen.storyboard */,
+				0979AB0E2558340D00E33C13 /* Assets.xcassets */,
 				0979AB132558340D00E33C13 /* Info.plist */,
 			);
 			path = Dicey;
