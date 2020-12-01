@@ -49,6 +49,9 @@
                                 <state key="normal" title="LET'S ROLL">
                                     <color key="titleColor" red="0.98039215690000003" green="0.86274509799999999" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="letsRollButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TAi-wU-qpy"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -56,7 +59,6 @@
                         <constraints>
                             <constraint firstItem="a8C-1l-1ub" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1Qt-GS-Yfv"/>
                             <constraint firstItem="a8C-1l-1ub" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="3io-cU-CIE"/>
-                            <constraint firstItem="nea-4e-AQ2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="I0J-ff-M1e"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nea-4e-AQ2" secondAttribute="trailing" id="Jbj-hW-Z6o"/>
                             <constraint firstItem="nea-4e-AQ2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="UdC-9G-GvI"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="nea-4e-AQ2" secondAttribute="bottom" id="V9t-Gn-lnZ"/>
