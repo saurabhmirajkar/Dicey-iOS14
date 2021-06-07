@@ -39,6 +39,23 @@
                                 <color key="textColor" red="0.47450980390000003" green="0.29803921570000003" blue="0.4549019608" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="FQe-9u-YfY">
+                                <rect key="frame" x="162" y="226" width="90.5" height="27.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SCORE:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eS7-7U-4me">
+                                        <rect key="frame" x="0.0" y="0.0" width="73" height="27.5"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="20"/>
+                                        <color key="textColor" red="0.47450980390000003" green="0.29803921570000003" blue="0.4549019608" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OVa-9P-tYV">
+                                        <rect key="frame" x="78" y="0.0" width="12.5" height="27.5"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="20"/>
+                                        <color key="textColor" red="0.47450980390000003" green="0.29803921570000003" blue="0.4549019608" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nea-4e-AQ2">
                                 <rect key="frame" x="0.0" y="782" width="414" height="80"/>
                                 <color key="backgroundColor" red="0.47450980390000003" green="0.29803921570000003" blue="0.4549019608" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -60,8 +77,10 @@
                             <constraint firstItem="a8C-1l-1ub" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1Qt-GS-Yfv"/>
                             <constraint firstItem="a8C-1l-1ub" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="3io-cU-CIE"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nea-4e-AQ2" secondAttribute="trailing" id="Jbj-hW-Z6o"/>
+                            <constraint firstItem="FQe-9u-YfY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Sfs-lA-FIt"/>
                             <constraint firstItem="nea-4e-AQ2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="UdC-9G-GvI"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="nea-4e-AQ2" secondAttribute="bottom" id="V9t-Gn-lnZ"/>
+                            <constraint firstItem="FQe-9u-YfY" firstAttribute="top" secondItem="nSB-C6-kZ5" secondAttribute="bottom" constant="8" id="ewn-ce-1Mw"/>
                             <constraint firstItem="a8C-1l-1ub" firstAttribute="top" secondItem="nSB-C6-kZ5" secondAttribute="bottom" constant="160" id="g9k-A0-eQR"/>
                             <constraint firstItem="nSB-C6-kZ5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qHm-zB-dtl"/>
                             <constraint firstItem="a8C-1l-1ub" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yVB-mf-T8i"/>
@@ -69,6 +88,7 @@
                     </view>
                     <connections>
                         <outlet property="firstDiceImageView" destination="aSv-s2-bRn" id="q7U-UZ-KvN"/>
+                        <outlet property="scoreLabel" destination="OVa-9P-tYV" id="0M3-Y8-A7k"/>
                         <outlet property="secondDiceImageView" destination="R1H-Tl-caZ" id="fe5-Th-afE"/>
                     </connections>
                 </viewController>
